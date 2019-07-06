@@ -1,6 +1,11 @@
 <template>
   <single-card-page>
-    Coming soon!
+    <v-flex>
+      <img
+        src="@/assets/botan.jpg"
+        alt="Nihonga Peony (Botan)"
+      >
+    </v-flex>
   </single-card-page>
 </template>
 
