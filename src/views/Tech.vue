@@ -1,6 +1,8 @@
 <template>
   <single-card-page>
-    <h1>Personal Projects</h1>
+    <h1 class="secondary--text">
+      Personal Projects
+    </h1>
     <p>
       Check out my <a
         target="_blank"
@@ -12,7 +14,9 @@
       DApps in Solidity.
     </p>
 
-    <h1>Press</h1>
+    <h1 class="secondary--text">
+      Press
+    </h1>
     <p>
       <a
         target="_blank"
@@ -22,7 +26,9 @@
         March 2019.
       </a>
     </p>
-    <h1>Publications &amp; Presentations</h1>
+    <h1 class="secondary--text">
+      Publications &amp; Presentations
+    </h1>
     <p>
       <ul>
         <li>
@@ -51,7 +57,9 @@
       </ul>
     </p>
 
-    <h1>Selected Work Experiences</h1>
+    <h1 class="secondary--text">
+      Selected Work Experiences
+    </h1>
     <p>
       <ul>
         <li>Curvegrid: Lead Software Engineer (March 2018 - Present)</li>
