@@ -11,9 +11,14 @@
           fill-height
           align-center
         >
-          <v-toolbar-title class="wordmark text-uppercase">
-            <span>Ann Marie Kilzer</span>
-          </v-toolbar-title>
+          <v-btn
+            flat
+            to="/"
+          >
+            <v-toolbar-title class="wordmark text-uppercase">
+              <span>Ann Marie Kilzer</span>
+            </v-toolbar-title>
+          </v-btn>
         </v-layout>
       </v-toolbar-items>
       <v-spacer />
@@ -23,7 +28,10 @@
           :key="item.name"
           fill-height
         >
-          <v-btn flat>
+          <v-btn
+            flat
+            :to="item.route"
+          >
             <span class="mr-2">{{ item.name }}</span>
           </v-btn>
         </v-layout>
@@ -32,18 +40,15 @@
 
     <v-content>
       <home />
+      <router-view />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Home from './views/Home.vue';
 
 export default {
   name: 'App',
-  components: {
-    Home,
-  },
   data() {
     return {
       //
@@ -54,12 +59,15 @@ export default {
       return [
         {
           name: 'Art',
+          route: '/art',
         },
         {
           name: 'Tech',
+          route: '/tech',
         },
         {
           name: 'Blog',
+          route: '/blog',
         },
       ];
     },
