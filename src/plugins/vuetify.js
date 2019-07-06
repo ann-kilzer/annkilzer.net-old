@@ -6,8 +6,8 @@ import 'vuetify/src/stylus/app.styl';
 Vue.use(Vuetify, {
   iconfont: 'md',
   theme: {
-    primary: colors.deepPurple.lighten1,
-    secondary: colors.cyan.lighten2,
+    primary: colors.green.darken1,
+    secondary: colors.deepPurple.lighten1,
     accent: colors.red.accent3,
   },
 });
