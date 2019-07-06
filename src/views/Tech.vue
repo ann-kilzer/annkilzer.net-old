@@ -10,7 +10,8 @@
       >
         GitHub page
       </a>
-      to see my hobby projects. Most recently, I've been writing websites in Vue.js, and making whimsical
+      to see my hobby projects. Most recently, I've been writing websites in Vue.js,
+      and making whimsical
       DApps in Solidity.
     </p>
 
