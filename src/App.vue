@@ -3,23 +3,31 @@
     <v-toolbar
       flat
       app
+      color="primary"
+      dark
     >
-      <v-toolbar-title class="wordmark text-uppercase">
-        <span>Ann Marie Kilzer</span>
-      </v-toolbar-title>
+      <v-toolbar-items>
+        <v-layout
+          fill-height
+          align-center
+        >
+          <v-toolbar-title class="wordmark text-uppercase">
+            <span>Ann Marie Kilzer</span>
+          </v-toolbar-title>
+        </v-layout>
+      </v-toolbar-items>
       <v-spacer />
-      <v-layout fill-height>
-        <v-btn
-          flat
+      <v-toolbar-items>
+        <v-layout
+          v-for="item in pages"
+          :key="item.name"
+          fill-height
         >
-          <span class="mr-2">Art</span>
-        </v-btn>
-        <v-btn
-          flat
-        >
-          <span class="mr-2">Tech</span>
-        </v-btn>
-      </v-layout>
+          <v-btn flat>
+            <span class="mr-2">{{ item.name }}</span>
+          </v-btn>
+        </v-layout>
+      </v-toolbar-items>
     </v-toolbar>
 
     <v-content>
@@ -38,6 +46,21 @@ export default {
     return {
       //
     };
+  },
+  computed: {
+    pages() {
+      return [
+        {
+          name: 'Art',
+        },
+        {
+          name: 'Tech',
+        },
+        {
+          name: 'Blog',
+        },
+      ];
+    },
   },
 };
 </script>
