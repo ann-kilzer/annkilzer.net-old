@@ -1,5 +1,6 @@
 <template>
   <single-card-page>
+    <v-img src="assets/portrait-small.jpg" />
     <p>
       My name is Ann Kilzer. I'm a polymath, and my career is in software engineering.
       I am the Lead Software Engineer at blockchain-as-a-service startup Curvegrid.
