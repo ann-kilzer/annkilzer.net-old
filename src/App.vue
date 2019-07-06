@@ -30,9 +30,7 @@
       </v-toolbar-items>
     </v-toolbar>
 
-    <v-content>
-      <HelloWorld />
-    </v-content>
+    <v-content />
   </v-app>
 </template>
 
