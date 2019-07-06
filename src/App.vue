@@ -1,19 +1,29 @@
 <template>
   <v-app>
-    <v-toolbar flat app>
+    <v-toolbar
+      flat
+      app
+    >
       <v-toolbar-title class="wordmark text-uppercase">
         <span>Ann Marie Kilzer</span>
       </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-        flat
-      >
-        <span class="mr-2">Art</span>
-      </v-btn>
+      <v-spacer />
+      <v-layout fill-height>
+        <v-btn
+          flat
+        >
+          <span class="mr-2">Art</span>
+        </v-btn>
+        <v-btn
+          flat
+        >
+          <span class="mr-2">Tech</span>
+        </v-btn>
+      </v-layout>
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <HelloWorld />
     </v-content>
   </v-app>
 </template>
