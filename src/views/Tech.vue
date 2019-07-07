@@ -1,6 +1,6 @@
 <template>
   <single-card-page>
-    <h1 class="secondary--text">
+    <h1 class="secondary--text text--darken-2">
       Personal Projects
     </h1>
     <p>
@@ -15,7 +15,7 @@
       DApps in Solidity.
     </p>
 
-    <h1 class="secondary--text">
+    <h1 class="secondary--text text--darken-2">
       Press
     </h1>
     <p>
@@ -27,7 +27,7 @@
         March 2019.
       </a>
     </p>
-    <h1 class="secondary--text">
+    <h1 class="secondary--text text--darken-2">
       Publications &amp; Presentations
     </h1>
     <p>
@@ -58,7 +58,7 @@
       </ul>
     </p>
 
-    <h1 class="secondary--text">
+    <h1 class="secondary--text text--darken-2">
       Selected Work Experiences
     </h1>
     <p>

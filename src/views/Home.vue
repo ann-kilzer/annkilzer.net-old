@@ -9,7 +9,7 @@
         sm6
         pr-4
       >
-        <h1 class="secondary--text">
+        <h1 class="secondary--text text--darken-2">
           Hello!
         </h1>
         <p>
