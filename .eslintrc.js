@@ -10,6 +10,7 @@ module.exports = {
   ],
   globals: {
     bus: false,
+    location: false,
   },
   parser: 'vue-eslint-parser',
   parserOptions: {

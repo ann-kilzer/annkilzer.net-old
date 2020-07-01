@@ -21,6 +21,8 @@
           >
             Curvegrid
           </a>, and I am looking for my next role in Japan.
+        </p>
+        <p>
           I received my Master's in Computer Science from the University of Texas at Austin,
           where I spent a few years researching privacy. I grew up in Missoula, Montana, and
           attended college at Gonzaga University, where I majored in computer science, math,

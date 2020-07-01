@@ -27,7 +27,7 @@ export default new Router({
     {
       path: '/blog',
       name: 'blog',
-      component: Blog,
+      beforeEnter() { location.href = 'https://medium.com/@annkilzer'; },
     },
   ],
 });
