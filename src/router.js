@@ -3,7 +3,6 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Art from './views/Art.vue';
 import Tech from './views/Tech.vue';
-import Blog from './views/Blog.vue';
 
 Vue.use(Router);
 
@@ -27,6 +26,7 @@ export default new Router({
     {
       path: '/blog',
       name: 'blog',
+      /* eslint-disable no-restricted-globals */
       beforeEnter() { location.href = 'https://medium.com/@annkilzer'; },
     },
   ],
