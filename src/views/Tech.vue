@@ -63,7 +63,7 @@
     </h1>
     <p>
       <ul>
-        <li>Curvegrid: Lead Software Engineer (March 2018 - Present)</li>
+        <li>Curvegrid: Lead Software Engineer (March 2018 - July 2020)</li>
 
         <li>Indeed: Software Engineer (September 2014 to July 2017)</li>
 
