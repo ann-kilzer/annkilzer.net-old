@@ -30,4 +30,5 @@ export default new Router({
       beforeEnter() { location.href = 'https://medium.com/@annkilzer'; },
     },
   ],
+  mode: 'history', // makes the # go away
 });
