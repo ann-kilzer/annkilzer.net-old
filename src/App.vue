@@ -16,7 +16,7 @@
             to="/"
           >
             <v-toolbar-title class="wordmark text-uppercase">
-              <span>Ann Marie Kilzer</span>
+              <span>Ann Kilzer</span>
             </v-toolbar-title>
           </v-btn>
         </v-layout>
