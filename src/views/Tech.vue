@@ -11,8 +11,7 @@
         GitHub page
       </a>
       to see my hobby projects. Most recently, I've been writing websites in Vue.js,
-      and making whimsical
-      DApps in Solidity.
+      React, and Python.
     </p>
 
     <h1 class="secondary--text text--darken-2">
@@ -63,7 +62,9 @@
     </h1>
     <p>
       <ul>
-        <li>Curvegrid: Lead Software Engineer (March 2018 - July 2020)</li>
+        <li>Mercari: Software Engineer (October 2020 to present)</li>
+
+        <li>Curvegrid: Lead Software Engineer (March 2018 to July 2020)</li>
 
         <li>Indeed: Software Engineer (September 2014 to July 2017)</li>
 

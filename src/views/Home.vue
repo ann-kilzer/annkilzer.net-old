@@ -14,13 +14,13 @@
         </h1>
         <p>
           My name is Ann Kilzer. I'm a polymath, and my career is in software engineering.
-          I was most recently the Lead Software Engineer at blockchain-as-a-service startup
+          I am currently a software engineer at
           <a
             target="_blank"
-            href="https://www.curvegrid.com/"
+            href="https://www.mercari.com/jp/"
           >
-            Curvegrid
-          </a>, and I am looking for my next role in Japan.
+            Mercari, Japan
+          </a>.
         </p>
         <p>
           I received my Master's in Computer Science from the University of Texas at Austin,
